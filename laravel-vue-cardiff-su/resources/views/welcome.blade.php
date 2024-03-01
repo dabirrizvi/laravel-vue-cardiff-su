@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <!-- Import the Vite JavaScript bundle -->
+    <!-- Import the Vite JavaScript bundle --> 
     @vite('resources/js/app.js')
 </head>
 <body>
     <!-- Mount the Vue application-->
     <div id="app">
-        <!-- Render the Example component -->
-        <example />
     </div>
 </body>
 </html>
