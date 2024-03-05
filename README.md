@@ -27,7 +27,7 @@ To install this project, follow these steps:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/dabirrizvi/laravel-vue-cardiff-su.git
    ```
 
 2. Navigate to the project directory:
