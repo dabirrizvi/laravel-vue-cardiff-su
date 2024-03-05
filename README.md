@@ -1,4 +1,3 @@
-```markdown
 # Laravel + Vue Project
 
 ## Introduction
@@ -93,6 +92,8 @@ To address the issue of task visibility, the application could implement a permi
 
 By incorporating these features, the application will provide a more comprehensive and secure solution for managing tasks, addressing the issues outlined by the staff member effectively. Additionally, ensuring compliance with accessibility requirements will further improve the usability and inclusivity of the application for all users.
 
+### Accessible Design
+In addition to enhancing functionality, prioritising accessibility in future development would ensure that the application is usable by individuals with disabilities. This involves adhering to accessibility standards such as WCAG (Web Content Accessibility Guidelines) and incorporating features like keyboard navigation and screen reader compatibility. By making the application accessible to all users, it promotes inclusivity and usability.
 
 ## Credits
 This project was created by Dabir Hasan Rizvi for Cardiff SU Placement Assignment for Web Developer Role .
