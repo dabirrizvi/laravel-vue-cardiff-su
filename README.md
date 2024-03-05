@@ -45,6 +45,14 @@ To install this project, follow these steps:
    npm install
    ```
 
+5. Copy the `.env.example` file to `.env` and update the database configuration according to your environment: cp .env.example .env
+
+6. Generate the application key: php artisan key:generate
+
+
+7. Run database migrations and seeders to create the necessary tables and populate the database with sample data: php artisan migrate --seed
+
+
 ## Usage
 To run this project, follow these steps:
 
