@@ -18,6 +18,7 @@ class TaskController extends Controller
             'task_description' => 'required|string',   // Description of the task (required)
             'priority' => 'required|string',            // Priority of the task (required)
             'due_date' => 'required|date',              // Due date of the task (required)
+            'assignee' => 'nullable|string|max:255',    // Assignee of the task (optional)
         ]);
 
         // Create a new Task instance in the database using the validated data.
@@ -38,5 +39,38 @@ class TaskController extends Controller
 
         // Return a JSON response with the tasks
         return response()->json($tasks);
+    }
+
+    /**
+     * Update the specified task in the database.
+     */
+    public function update(Request $request, Task $task)
+    {
+        // Validate the incoming request data to ensure it meets the specified rules.
+        $validatedData = $request->validate([
+            'user_name' => 'nullable|string|max:255', // User's name (optional)
+            'task_description' => 'required|string',   // Description of the task (required)
+            'priority' => 'required|string',            // Priority of the task (required)
+            'due_date' => 'required|date',              // Due date of the task (required)
+            'assignee' => 'nullable|string|max:255',    // Assignee of the task (optional)
+        ]);
+
+        // Update the task instance with the validated data
+        $task->update($validatedData);
+
+        // Return a JSON response with the updated task
+        return response()->json($task);
+    }
+
+    /**
+     * Remove the specified task from the database.
+     */
+    public function destroy(Task $task)
+    {
+        // Delete the task from the database
+        $task->delete();
+
+        // Return a JSON response with a success message
+        return response()->json(['message' => 'Task deleted successfully']);
     }
 }
