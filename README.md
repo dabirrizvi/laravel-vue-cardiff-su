@@ -1,5 +1,3 @@
-Sure, here's an updated version of the README.md file with commands that users can copy directly:
-
 ```markdown
 # Laravel + Vue Project
 
