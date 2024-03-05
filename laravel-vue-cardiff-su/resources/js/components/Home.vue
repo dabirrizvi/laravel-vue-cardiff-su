@@ -1,5 +1,9 @@
 <template>
-    Home
+    <Form />
+    <TaskList />
 </template>
-<script></script>
+<script setup>
+import Form from './Form.vue'
+import TaskList from './TaskList.vue'
+</script>
 <style></style>
