@@ -85,6 +85,17 @@ To run this project, follow these steps:
 - Ensure that your web server is properly configured to serve the Laravel application and handle Vue router history mode.
 - You can customise the project further by modifying the Vue components and Laravel controllers as per your requirements.
 
+## Future Work 
+
+### User Authentication
+Adding user authentication to the application would enhance security and allow each user to have their own personalised experience. This could be achieved by implementing Laravel's built-in authentication system.
+
+### Task Visibility
+To address the issue of task visibility, the application could implement a permissions system where tasks can be designated as either public or private. Public tasks would be visible to all users, while private tasks would only be visible to the user who created them. This would ensure that sensitive information remains secure and only accessible to authorised individuals.
+
+By incorporating these features, the application will provide a more comprehensive and secure solution for managing tasks, addressing the issues outlined by the staff member effectively. Additionally, ensuring compliance with accessibility requirements will further improve the usability and inclusivity of the application for all users.
+
+
 ## Credits
 This project was created by Dabir Hasan Rizvi for Cardiff SU Placement Assignment for Web Developer Role .
 
