@@ -3,6 +3,9 @@ import { createApp } from 'vue';
 
 // Import the bootstrap file which contains the setup for Laravel and other dependencies
 import './bootstrap';
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.css'
+
 
 // Import App
 import App from '../views/App.vue';
