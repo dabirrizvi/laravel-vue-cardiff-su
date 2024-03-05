@@ -19,4 +19,6 @@ use App\Http\Controllers\TaskController;
 Route::prefix('tasks')->group(function () {
     Route::get('/', [TaskController::class, 'index']); // Fetch all tasks
     Route::post('/', [TaskController::class, 'store']); // Store a new task
+    Route::put('/{task}', [TaskController::class, 'update']); // Update an existing task
+    Route::delete('/{task}', [TaskController::class, 'destroy']); // Delete an existing task
 });
