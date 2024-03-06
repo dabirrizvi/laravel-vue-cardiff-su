@@ -11,7 +11,6 @@ const router = createRouter({
         { path: '/', component: TaskList },
         { path: '/tasks', component: TaskList },
         { path: '/form', component: TaskForm },
-        // Move the catch-all route to the end
         { path: '/:notFound(.*)', component: NotFound },
     ],
 });
